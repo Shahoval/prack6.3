@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <h2>Тест</h2>
+    <form id="mathTestForm">
+      <div>
+        <p>14.Скільки секунд у хвилині"?</p>
+      </div>
+      <div class="col">
+        <p class="pp">Можливі відповіді:</p>
+        <input type="radio" id="answer1" name="answer" value="60" hidden />
+        <label for="answer1" class="answer-button" onclick="checkAnswer('60')"
+          >60</label
+        >
+        <input type="radio" id="answer2" name="answer" value="55" hidden />
+        <label
+          for="answer2"
+          class="answer-button"
+          onclick="checkAnswer('55')"
+          >55</label
+        >
+        <input type="radio" id="answer3" name="answer" value="59" hidden />
+        <label
+          for="answer3"
+          class="answer-button"
+          onclick="checkAnswer('59')"
+          >59</label
+        ><br /><br />
+        <input type="radio" id="answer2" name="answer" value="51" hidden />
+        <label
+          for="answer2"
+          class="answer-button"
+          onclick="checkAnswer('51')"
+          >51</label
+        >
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
